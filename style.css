@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    outline-style: solid;
+    outline-color: darkred;
+    border-radius: 25px;
+    padding: 20px;
+    width: 75%;
+}
+
+.container div {
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    /* background-color: darkgreen */
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+
+td {
+    text-align: left;
+}
